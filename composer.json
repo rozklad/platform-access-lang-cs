@@ -23,7 +23,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "http://packages.cartalyst.com"
+            "url": "https://packages.cartalyst.com"
         },
         {
             "type": "composer",
@@ -36,7 +36,6 @@
     },
     "type": "composer-installer",
     "extra": {
-        "class": "Cartalyst\\ComposerInstallers\\Installer",
         "path": "extensions/platform/access/lang/cs/"
     },
     "minimum-stability": "stable"
