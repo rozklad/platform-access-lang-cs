@@ -1,5 +1,6 @@
 {
     "name": "sanatorium/platform-access-lang-cs",
+    "type": "platform-package",
     "description": "Czech localization to Cartalyst Platform",
     "authors": [
         {
@@ -34,8 +35,13 @@
         "php": ">=5.4.0",
         "cartalyst/composer-installers": ">=1.2.0"
     },
-    "type": "composer-installer",
     "extra": {
+        "component": "package",
+        "class": [
+            "Cartalyst\\ComposerInstallers\\ExtensionInstallerPlugin",
+            "Cartalyst\\ComposerInstallers\\InstallerPlugin",
+            "Cartalyst\\ComposerInstallers\\ThemeInstallerPlugin"
+        ],
         "path": "extensions/platform/access/lang/cs/"
     },
     "minimum-stability": "stable"
