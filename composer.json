@@ -1,6 +1,6 @@
 {
     "name": "sanatorium/platform-access-lang-cs",
-    "type": "composer-installers",
+    "type": "composer-installer",
     "description": "Czech localization to Cartalyst Platform",
     "authors": [
         {
